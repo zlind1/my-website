@@ -15,32 +15,34 @@
    <div id="app"></div>
 
    <script type="text/babel" defer>
-      const BSModules = ['Container', 'Row', 'Col', 'Navbar', 'Nav', 'NavDropdown', 'Button'];
+      const BSModules = ['Container', 'Image', 'Jumbotron', 'Nav', 'Navbar'];
       BSModules.forEach(module => eval('window.'+module+' = ReactBootstrap.'+module));
-
-      function TopBar(props) {
-         return (
-            <Navbar sticky='top' bg='dark' variant='dark' expand="md" className='m-0 w-100'>
-               <Navbar.Brand href="#home">Zachary Lind</Navbar.Brand>
-               <Navbar.Toggle aria-controls="my-nav" />
-               <Navbar.Collapse id="my-nav">
-                  <Nav className="ml-auto">
-                     <Nav.Link href="#home">Portfolio</Nav.Link>
-                     <Nav.Link href="#resume">Resume</Nav.Link>
-                     <Nav.Link href="#contact">Contact</Nav.Link>
-                  </Nav>
-               </Navbar.Collapse>
-            </Navbar>
-         );
-      }
 
       function App(props) {
          return (
-            <Container fluid className='bg-primary p-0'>
-               <TopBar />
+            <Container fluid className='p-0'>
+
+               <Navbar sticky='top' bg='dark' variant='dark' expand='md'>
+                  <Navbar.Brand href='#home'>Zachary Lind</Navbar.Brand>
+                  <Navbar.Toggle aria-controls='my-nav' />
+                  <Navbar.Collapse id='my-nav'>
+                     <Nav className='ml-auto'>
+                        <Nav.Link href='#portfolio'>Portfolio</Nav.Link>
+                        <Nav.Link href='#resume'>Resume</Nav.Link>
+                        <Nav.Link href='#contact'>Contact</Nav.Link>
+                     </Nav>
+                  </Navbar.Collapse>
+               </Navbar>
+
+               <Jumbotron fluid className='m-0 h-50 d-flex justify-content-center'
+                style={{'background-image':'url(galaxy.jpg)', 'background-attachment':'fixed'}}>
+                  <h1 className='text-white align-self-center'>Full Stack Web Developer</h1>
+               </Jumbotron>
+
                <div className='h-100 bg-success'>
                   <h1>This is the beginning of my site</h1>
                </div>
+
             </Container>
          );
       }
