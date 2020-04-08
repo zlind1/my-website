@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Tuner from './Tuner.js';
+import TopBar from './TopBar.js';
 
 function App() {
   return (
