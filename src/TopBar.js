@@ -5,18 +5,26 @@ import {Link} from 'react-router-dom';
 function TopBar() {
   return (
     <Row className='bg-dark'>
-    	  <Link to='/' as={Col} xs={3}>
-    	    Home
-    	  </Link>
-    	  <Link to='/resume' as={Col} xs={3}>
-    	    Resume
-    	  </Link>
-    	  <Link to='/portfolio' as={Col} xs={3}>
-    	    Portfolio
-    	  </Link>
-    	  <Link to='/contact' as={Col} xs={3}>
-    	    Contact
-    	  </Link>
+    	<Col xs={3}>
+	    	<Link to='/'>
+	    	  Home
+	    	</Link>
+    	</Col>
+    	<Col xs={3}>
+	    	<Link to='/resume'>
+	    	  Resume
+	    	</Link>
+    	</Col>
+    	<Col xs={3}>
+	    	<Link to='/portfolio'>
+	    	  Portfolio
+	    	</Link>
+    	</Col>
+    	<Col xs={3}>
+	    	<Link to='/contact'>
+	    	  Contact
+	    	</Link>
+    	</Col>
     </Row>
   );
 }
