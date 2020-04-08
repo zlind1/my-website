@@ -1,10 +1,11 @@
 import React from 'react';
-import {} from 'react-bootstrap';
+import {Row} from 'react-bootstrap';
 
 function TopBar() {
   return (
-    <>
-    </>
+    <Row className='bg-primary'>
+    	  nav bar
+    </Row>
   );
 }
 

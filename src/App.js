@@ -4,9 +4,9 @@ import TopBar from './TopBar.js';
 
 function App() {
   return (
-    <>
+    <Container fluid>
       <TopBar />
-    </>
+    </Container>
   );
 }
 
