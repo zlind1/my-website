@@ -3,6 +3,7 @@ import {Container} from 'react-bootstrap';
 import {Route} from 'react-router-dom';
 
 import TopBar from './TopBar.js';
+import Home from './Home.js';
 import Resume from './Resume.js';
 import Contact from './Contact.js';
 
@@ -11,7 +12,7 @@ function App() {
     <Container fluid>
       <TopBar />
       <Route exact path='/'>
-        home
+        <Home />
       </Route>
       <Route exact path='/resume'>
         <Resume />
