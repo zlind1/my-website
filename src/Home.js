@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutMe from './AboutMe';
 
 function Home() {
   return (
     <>
-      Home bitch
+      <AboutMe />
     </>
   );
 }

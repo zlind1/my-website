@@ -1,31 +1,28 @@
 import React from 'react';
-import {Row, Col} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import {Navbar, Nav} from 'react-bootstrap';
 
 function TopBar() {
   return (
-    <Row className='bg-dark d-flex justify-content-between py-3'>
-    	<Col xs={3} className='d-flex justify-content-center'>
-	    	<Link to='/'>
-	    	  Home
-	    	</Link>
-    	</Col>
-    	<Col xs={3} className='d-flex justify-content-center'>
-	    	<Link to='/resume'>
-	    	  Resume
-	    	</Link>
-    	</Col>
-    	<Col xs={3} className='d-flex justify-content-center'>
-	    	<Link to='/portfolio'>
-	    	  Portfolio
-	    	</Link>
-    	</Col>
-    	<Col xs={3} className='d-flex justify-content-center'>
-	    	<Link to='/contact'>
-	    	  Contact
-	    	</Link>
-    	</Col>
-    </Row>
+    <Navbar bg='dark' variant='dark' expand='lg'>
+      <Navbar.Brand href='/'>Zach Lind</Navbar.Brand>
+      <Navbar.Toggle aria-controls='basic-navbar-nav'/>
+      <Navbar.Collapse id='basic-navbar-nav'>
+        <Nav className='me-auto'>
+          <Nav.Link href='/'>
+            Home
+          </Nav.Link>
+          <Nav.Link href='/resume'>
+            Resume
+          </Nav.Link>
+          <Nav.Link href='/portfolio'>
+            Portfolio
+          </Nav.Link>
+          <Nav.Link href='/contact'>
+            Contact
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 

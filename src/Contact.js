@@ -1,33 +1,28 @@
 import React from 'react';
-import {ListGroup} from 'react-bootstrap';
-import {FaLinkedin, FaGithub, FaPhone} from 'react-icons/fa';
-import {FiMail} from 'react-icons/fi';
+import {Form, Button} from 'react-bootstrap';
 
 function Contact() {
-  return (
-    <ListGroup variant='flush'>
-      <ListGroup.Item>
-        <FiMail size={48} className='mx-3'/>
-        <a href='mailto:zlind@ucsc.edu' target='_blank' rel='noopener noreferrer'>zlind@ucsc.edu</a>
-      </ListGroup.Item>
-      <ListGroup.Item>
-        <FaPhone size={48} className='mx-3'/>
-        <a href='tel:9259840473'>925 984 0473</a>
-      </ListGroup.Item>
-      <ListGroup.Item>
-        <FaLinkedin size={48} className='mx-3'/>
-        <a href='https://www.linkedin.com/in/zachary-lind-8b86101a1/'>
-          LinkedIn Profile
-        </a>
-      </ListGroup.Item>
-      <ListGroup.Item>
-        <FaGithub size={48} color='black' className='mx-3'/>
-        <a href='https://github.com/zlind1'>
-          GitHub Profile
-        </a>
-      </ListGroup.Item>
-    </ListGroup>
-  );
+  function sendMessage(e) {
+    e.preventDefault();
+    console.log(email.current.value);
+    console.log(message.current.value);
+  }
+  const email = React.useRef();
+  const message = React.useRef();
+  return <>
+    <h1>Feel free to send me a message and we can chat.</h1>
+    <Form onSubmit={sendMessage}>
+      <Form.Group>
+        <Form.Label>Email address</Form.Label>
+        <Form.Control placeholder='example@gmail.com' type='email' ref={email} required/>
+      </Form.Group>
+      <Form.Group>
+        <Form.Label>Message</Form.Label>
+        <Form.Control as='textarea' placeholder='Enter your message here' ref={message} required/>
+      </Form.Group>
+      <Button type='submit'>Send message</Button>
+    </Form>
+  </>;
 }
 
 export default Contact;
