@@ -1,13 +1,13 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 import {useHistory} from 'react-router-dom';
 import projects from '../data/projects.json';
 
 function ProjectPreview(props) {
   const {id} = props;
-  const color = (id % 2 == 0 ? 'white' : 'light');
+  const color = (id % 2 === 0 ? 'white' : 'light');
   const history = useHistory();
-  const {title, description, summary, github} = projects[id];
+  const {title, summary} = projects[id];
   function openProject() {
     history.push(`/projects/${id}`);
   }

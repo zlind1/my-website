@@ -6,7 +6,7 @@ function Education(props) {
   return (
     <Row>
       <h5 className='mr-3'>{school}</h5>
-      <em>{description}</em>
+      <em>{description} - {dates}</em>
       <ul>
         {info.map((item, i) =>
           <li key={i}>{item}</li>
