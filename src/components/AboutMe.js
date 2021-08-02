@@ -1,8 +1,9 @@
 import React from 'react';
+import {Container} from 'react-bootstrap';
 
 function AboutMe() {
-  return <>
-    <h1>About me</h1>
+  return <Container>
+    <h1 className='my-3'>About me</h1>
     <p>
       Growing up, I always loved computers, from videogames to paint editors,
       and I had always wondered how they were made. In middle school I went to
@@ -23,7 +24,7 @@ function AboutMe() {
       the designs provided by the UI artist. I connected my pages to the backend using
       AJAX, sending requests to the backend server and updating my site with the responses.
     </p>
-  </>;
+  </Container>;
 }
 
 export default AboutMe;

@@ -1,7 +1,9 @@
 import React from 'react';
-import {Form, Button} from 'react-bootstrap';
+import {Container, Form, Button} from 'react-bootstrap';
+import {useHistory} from 'react-router-dom';
 
 function Contact() {
+  const history = useHistory();
   const email = React.useRef();
   const message = React.useRef();
   function encode(data) {
@@ -19,10 +21,10 @@ function Contact() {
         'email': email.current.value,
         'message': message.current.value
       })
-    }).then(() => console.log('form submitted')).catch(error => alert(error))
+    }).then(() => history.push('/thankyou')).catch(error => alert(error))
   }
-  return <>
-    <h1>Feel free to send me a message and we can chat.</h1>
+  return <Container>
+    <h1 className='my-3'>Feel free to send me a message and we can chat.</h1>
     <Form data-netlify='true' name='contact' onSubmit={submitForm} method='post'>
       <input type='hidden' name='form-name' value='contact' />
       <Form.Group>
@@ -33,11 +35,11 @@ function Contact() {
       <Form.Group>
         <Form.Label>Message</Form.Label>
         <Form.Control as='textarea' placeholder='Enter your message here'
-          name='message' ref={message} required/>
+          name='message' ref={message} required style={{height: '100px'}}/>
       </Form.Group>
-      <Button type='submit'>Send message</Button>
+      <Button type='submit' variant='secondary'>Send message</Button>
     </Form>
-  </>;
+  </Container>;
 }
 
 export default Contact;

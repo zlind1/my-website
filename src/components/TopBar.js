@@ -3,7 +3,7 @@ import {Navbar, Nav} from 'react-bootstrap';
 
 function TopBar() {
   return (
-    <Navbar bg='dark' variant='dark' expand='lg'>
+    <Navbar bg='dark' variant='dark' expand='lg' sticky='top'>
       <Navbar.Brand href='/'>Zach Lind</Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav'/>
       <Navbar.Collapse id='basic-navbar-nav'>

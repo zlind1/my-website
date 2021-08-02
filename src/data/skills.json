@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Python",
+    "subskills": [
+      "Numpy",
+      "Pygame",
+      "Flask",
+      "Tensorflow"
+    ],
+    "rating": 95
+  },
+  {
+    "title": "HTML5/CSS3",
+    "subskills": [
+      "Vanilla",
+      "Bootstrap"
+    ],
+    "rating": 85
+  },
+  {
+    "title": "JavaScript",
+    "subskills": [
+      "Vanilla",
+      "ReactJS",
+      "AngularJS",
+      "Web APIs"
+    ],
+    "rating": 90
+  }
+]
