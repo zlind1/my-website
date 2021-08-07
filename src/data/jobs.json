@@ -3,28 +3,33 @@
     "title": "Software Engineer Intern",
     "company": "Infinite Options LLC",
     "location": "San Jose, CA",
-    "dates": "March 2020 - Present",
+    "dates": "March 2020 - October 2020",
     "description": [
-      "Front-end development in ReactJS",
-      "Worked in a team to design and deploy a website"
+      "Front-end development in ReactJS to match UI designs",
+      "Worked in a team to design and deploy a website",
+      "Mobile frontend design with Xamarin Forms"
     ]
-  }, {
+  },
+  {
     "title": "Courtesy Clerk",
     "company": "Sprouts Farmers Market",
     "location": "San Ramon, CA",
     "dates": "June 2018 - September 2018",
     "description": [
       "Bagged groceries, returned shopping carts, cleaned store",
-      "Summer job between quarters"
+      "Part time job over summer"
     ]
-  }, {
+  },
+  {
     "title": "Team Trainer",
     "company": "Taco Bell",
     "location": "Danville, CA",
     "dates": "March 2016 - June 2017",
     "description": [
-      "Cooked, cleaned, took orders, trained new members",
-      "First job in high school"
+      "Cashier: taking orders, handling money",
+      "Cook: preparing and making food",
+      "Cleaner: sweeping, cleaning, washing dishes",
+      "Trainer: showing new hires the ropes"
     ]
   }
 ]

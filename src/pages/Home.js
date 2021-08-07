@@ -1,12 +1,13 @@
 import React from 'react';
 import AboutMe from '../components/AboutMe';
-import Contact from '../pages/Contact';
+import ContactForm from '../components/ContactForm';
 
 function Home() {
   return (
     <>
       <AboutMe />
-      <Contact />
+      <hr />
+      <ContactForm />
     </>
   );
 }

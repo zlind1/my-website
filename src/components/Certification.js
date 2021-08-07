@@ -1,15 +1,19 @@
 import React from 'react';
-import {Row} from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 
 function Certification(props) {
   const {title, issuer, date, link, img} = props.certification;
   return (
     <Row>
-      <h5>{title} - {issuer}</h5>
-      <em className='mx-3'>{date}</em>
-      <a href={link}>
-        <img height={200} src={img} href={link} alt=''/>
-      </a>
+      <Col xs={8}>
+        <h5>{title}</h5>
+        <em>{issuer} - {date}</em>
+      </Col>
+      <Col xs={4}>
+        <a href={link}>
+          <img height={100} src={img} href={link} alt=''/>
+        </a>
+      </Col>
     </Row>
   );
 }

@@ -1,17 +1,21 @@
 import React from 'react';
-import {Row} from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 
 function Education(props) {
   const {school, dates, description, info} = props.education;
   return (
     <Row>
-      <h5 className='mr-3'>{school}</h5>
-      <em>{description} - {dates}</em>
-      <ul>
-        {info.map((item, i) =>
-          <li key={i}>{item}</li>
-        )}
-      </ul>
+      <Col xs={12}>
+        <h5 className='mr-3'>{school}</h5>
+        <em>{description} / {dates}</em>
+      </Col>
+      <Col xs={12}>
+        <ul>
+          {info.map((item, i) =>
+            <li key={i}>{item}</li>
+          )}
+        </ul>
+      </Col>
     </Row>
   );
 }

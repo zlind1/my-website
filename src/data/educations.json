@@ -2,15 +2,16 @@
   {
     "school": "University of California, Santa Cruz",
     "dates": "2017-2021",
-    "description": "B.S. in Computer Science expected June 2021",
+    "description": "B.S. in Computer Science",
     "info": [
       "Minor in Computer Engineering",
       "Algorithms, Advanced Programming, Machine Learning, Quantum Computing"
     ]
-  }, {
+  },
+  {
     "school": "Monte Vista High School",
     "dates": "2013-2017",
-    "description": "Graduated June 2017 with 3.8 GPA",
+    "description": "Graduated with 3.8 GPA",
     "info": [
       "Member of school choir 4 years",
       "AP Java"

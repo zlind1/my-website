@@ -3,12 +3,21 @@
     "title": "Personal Webpage",
     "summary": "The website you're viewing right now",
     "description": "This website was built using ReactJS, hosted on Netlify",
-    "github": "https://github.com/zlind1/my-website"
+    "github": "https://github.com/zlind1/my-website",
+    "link": "https://zachlind.netlify.app"
   },
   {
     "title": "RecomMedia",
     "summary": "Recommendation app built in a team with other students at UCSC",
-    "description": "Allows users to create accounts to track the media they like, and recommends similar media for them. Media types include TV shows, movies, manga, music, etc. Data was loaded in using web scrapers, stored in Amazon RDS database with PostgreSQL. Frontend written in ReactJS, hosted on Netlify. Backend written in Python with Flask, hosted on Heroku.",
-    "github": "https://github.com/3MusketeersMedia/Recommendation-app-"
+    "description": "Allows users to create accounts to track the media they like, and recommends similar media for them. Media types include TV shows, movies, manga, music, etc. Data was loaded in using web scrapers, stored in Amazon RDS database with PostgreSQL. Frontend written in ReactJS, hosted on Netlify. Backend written in Python with Flask, hosted on Heroku. Developed using Scrum / Agile methodology.",
+    "github": "https://github.com/3MusketeersMedia/Recommendation-app-",
+    "link": ""
+  },
+  {
+    "title": "Unity Platformer",
+    "summary": "Small game made in Unity",
+    "description": "Simple platformer developed using Unity and C#. Involves jumping, double jumping, wall jumping, dashing, coin collection, and lives.",
+    "github": "https://github.com/zlind1/unity-platformer",
+    "link": "https://zlind-platformer.netlify.app/"
   }
 ]

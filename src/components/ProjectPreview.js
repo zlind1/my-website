@@ -12,12 +12,18 @@ function ProjectPreview(props) {
     history.push(`/projects/${id}`);
   }
   return (
-    <Row className={`bg-${color}`} onClick={openProject}>
-      <Col>
-        <h1>{title}</h1>
+    <Row className={`bg-${color} py-3`} onClick={openProject}>
+      <Col sm={9}>
+        <h3>
+          <span className='mr-3'>{title}</span>
+          <br className='d-md-none'/>
+          <span className='h5 text-muted'>{summary}</span>
+        </h3>
       </Col>
-      <Col>
-        <p>{summary}</p>
+      <Col sm>
+        <span className='float-right'>
+          Click to see more...
+        </span>
       </Col>
     </Row>
   );

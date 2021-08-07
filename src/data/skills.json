@@ -1,30 +1,42 @@
 [
   {
     "title": "Python",
-    "subskills": [
-      "Numpy",
-      "Pygame",
-      "Flask",
-      "Tensorflow"
-    ],
     "rating": 95
   },
   {
-    "title": "HTML5/CSS3",
-    "subskills": [
-      "Vanilla",
-      "Bootstrap"
-    ],
-    "rating": 85
+    "title": "HTML/CSS",
+    "rating": 75
   },
   {
     "title": "JavaScript",
-    "subskills": [
-      "Vanilla",
-      "ReactJS",
-      "AngularJS",
-      "Web APIs"
-    ],
     "rating": 90
+  },
+  {
+    "title": "Java",
+    "rating": 75
+  },
+  {
+    "title": "C",
+    "rating": 60
+  },
+  {
+    "title": "C#",
+    "rating": 60
+  },
+  {
+    "title": "C++",
+    "rating": 60
+  },
+  {
+    "title": "Unity",
+    "rating": 70
+  },
+  {
+    "title": "Algorithms",
+    "rating": 70
+  },
+  {
+    "title": "3D Modeling",
+    "rating": 50
   }
 ]

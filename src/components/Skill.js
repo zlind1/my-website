@@ -2,21 +2,19 @@ import React from 'react';
 import {Row, Col, ProgressBar} from 'react-bootstrap';
 
 function Skill(props) {
-  const {title, subskills, rating} = props.skill;
+  const {title, rating} = props.skill;
+  const variant = (
+    rating >= 75 ? 'success' :
+    rating >= 40 ? 'warning' :
+    'danger'
+  );
   return (
-    <Row>
-      <Col md={5}>
-        <h5>{title}</h5>
+    <Row className='my-3'>
+      <Col>
+        <h5 className='m-0'>{title}</h5>
       </Col>
-      <Col md={7}>
-        <Row>
-          <Col as='ul' className='mx-3'>
-            {subskills.map((ss, i) => <li key={i}>{ss}</li>)}
-          </Col>
-          <Col className='p-3'>
-            <ProgressBar variant='success' now={rating}/>
-          </Col>
-        </Row>
+      <Col>
+        <ProgressBar variant={variant} now={rating} className='h-100'/>
       </Col>
     </Row>
   );
