@@ -3,12 +3,16 @@ import {Container} from 'react-bootstrap';
 
 function AboutMe() {
   return <Container>
-    <h1 className='my-3'>About me</h1>
+    <h1 className='my-3 text-center'>About me</h1>
     <p>
       Hi there! My name is Zach Lind and I'm a new graduate out of UC Santa Cruz
       with a Bachelor's in Computer Science. I'm looking for full-time jobs as a
-      Software Engineer in the Bay Area. Please have a look through my resume and
-      portfolio and feel free to contact me with any questions, comments, job offers.
+      Software Engineer in the Bay Area. Please have a look through my
+      <a href='/resume'> resume</a> and
+      <a href='/portfolio'> portfolio </a>
+      and feel free to
+      <a href='/contact'> contact </a>
+      me with any questions, comments, job offers.
     </p>
     <p>
       Growing up, I always loved computers, from videogames to paint editors,

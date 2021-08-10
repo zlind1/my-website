@@ -11,14 +11,15 @@ function Project(props) {
   }
   const {title, description, summary, github, link} = projects[projectID];
   return (
-    <Container>
+    <Container className='p-3'>
       <Row>
-        <h1>{title}</h1>
+        <h1>
+          <span className='mr-3'>{title}</span>
+          <br className='d-md-none'/>
+          <span className='h5 text-muted'>{summary}</span>
+        </h1>
       </Row>
-      <Row>
-        <em>{summary}</em>
-      </Row>
-      <Row>
+      <Row className='my-3'>
         <p>{description}</p>
       </Row>
       <Row>

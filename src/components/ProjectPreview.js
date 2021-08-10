@@ -21,9 +21,9 @@ function ProjectPreview(props) {
         </h3>
       </Col>
       <Col sm>
-        <span className='float-right'>
+        <div className='float-right'>
           Click to see more...
-        </span>
+        </div>
       </Col>
     </Row>
   );

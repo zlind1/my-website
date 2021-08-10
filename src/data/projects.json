@@ -2,7 +2,7 @@
   {
     "title": "Personal Webpage",
     "summary": "The website you're viewing right now",
-    "description": "This website was built using ReactJS, hosted on Netlify",
+    "description": "This website was built using ReactJS, hosted on Netlify. It uses a netlify form to notify me when people fill out my form without needing a backend.",
     "github": "https://github.com/zlind1/my-website",
     "link": "https://zachlind.netlify.app"
   },
@@ -16,7 +16,7 @@
   {
     "title": "Unity Platformer",
     "summary": "Small game made in Unity",
-    "description": "Simple platformer developed using Unity and C#. Involves jumping, double jumping, wall jumping, dashing, coin collection, and lives.",
+    "description": "Simple platformer developed using Unity and C#. Involves jumping, double jumping, wall jumping, dashing, coin collection, and lives. Can serve as a basis for more advanced games, by adding in sprites and further refining the mechanics.",
     "github": "https://github.com/zlind1/unity-platformer",
     "link": "https://zlind-platformer.netlify.app/"
   }
