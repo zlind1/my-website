@@ -10,7 +10,7 @@ function ContactLinks() {
     <a href='tel:9259840473'>
       <FaPhone size={24} color='black' className='mx-3'/>
     </a>
-    <a href='https://www.linkedin.com/in/zachary-lind-8b86101a1/'>
+    <a href='https://linkedin.com/in/zlind1'>
       <FaLinkedin size={24} color='black' className='mx-3'/>
     </a>
     <a href='https://github.com/zlind1'>
