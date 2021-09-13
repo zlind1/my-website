@@ -21,8 +21,8 @@ function ProjectPreview(props) {
         </h3>
       </Col>
       <Col sm>
-        <div className='float-right'>
-          Click to see more...
+        <div className='float-right text-primary'>
+          click to see more...
         </div>
       </Col>
     </Row>

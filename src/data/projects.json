@@ -2,22 +2,36 @@
   {
     "title": "Personal Webpage",
     "summary": "The website you're viewing right now",
-    "description": "This website was built using ReactJS, hosted on Netlify. It uses a netlify form to notify me when people fill out my form without needing a backend.",
+    "description": "This website was built using ReactJS and Bootstrap, and is hosted on Netlify. I can save and edit the data for my jobs, education, projects, etc. in JSON format. This data is then displayed using custom components that I can tweak easily. It uses a Netlify form to notify me when people fill out the contact form without needing the use of a backend.",
     "github": "https://github.com/zlind1/my-website",
     "link": "https://zachlind.netlify.app"
   },
   {
     "title": "RecomMedia",
-    "summary": "Recommendation app built in a team with other students at UCSC",
-    "description": "Allows users to create accounts to track the media they like, and recommends similar media for them. Media types include TV shows, movies, manga, music, etc. Data was loaded in using web scrapers, stored in Amazon RDS database with PostgreSQL. Frontend written in ReactJS, hosted on Netlify. Backend written in Python with Flask, hosted on Heroku. Developed using Scrum / Agile methodology.",
+    "summary": "Recommendation app for all types of media",
+    "description": "This application was built in a team as my senior project at UCSC. It allows users to create accounts to track the media they like, and recommends similar media for them. Media types include TV shows, movies, manga, music, etc. The media data was loaded in using BeautifulSoup in Python to scrape various websites for their information. This data, along with the user data, is stored in Amazon RDS database with PostgreSQL. The frontend was written in ReactJS and Bootstrap, and was hosted on Netlify. The backend was written in Python with Flask, and hosted on Heroku. This project was developed using Scrum / Agile methodology, in four 2-week sprints.",
     "github": "https://github.com/3MusketeersMedia/Recommendation-app-",
     "link": ""
   },
   {
     "title": "Unity Platformer",
     "summary": "Small game made in Unity",
-    "description": "Simple platformer developed using Unity and C#. Involves jumping, double jumping, wall jumping, dashing, coin collection, and lives. Can serve as a basis for more advanced games, by adding in sprites and further refining the mechanics.",
+    "description": "This is a simple platformer that was developed using Unity and C#. Core mechanics include jumping, double jumping, wall jumping, dashing, coin collection, and a life system. This can serve as a basis for more advanced games, by adding in sprites and further refining the mechanics.",
     "github": "https://github.com/zlind1/unity-platformer",
     "link": "https://zlind-platformer.netlify.app/"
+  },
+  {
+    "title": "Top Down Shooter",
+    "summary": "Small game made in JavaScript",
+    "description": "This game was made using HTML5 canvas, JavaScript, and minimal CSS. The UI is produced using DOM manipulation, and the core mechanics include moving, aiming, and shooting using the keyboard and mouse.",
+    "github": "https://github.com/zlind1/TopDownShooter",
+    "link": "https://zlind-topdownshooter.netlify.app/"
+  },
+  {
+    "title": "GoalKeeper",
+    "summary": "Web application for goal tracking",
+    "description": "This application allows users to create accounts, start adding new goals and tracking their completion. Users can also delete goals and edit goal titles. Frontend is built with ReactJS and Bootstrap, and is hosted on Netlify. Backend is created using Python and Flask, and is hosted on Heroku. The data is stored using AWS DynamoDB through the boto3 library in Python. Login/signup handled with Flask-JWT-Extended, storing access and refresh tokens into React context and local storage. The page refreshes your session automatically when your access token expires.",
+    "github": "https://github.com/zlind1/GoalKeeper",
+    "link": "https://zlind-goalkeeper.netlify.app/"
   }
 ]
