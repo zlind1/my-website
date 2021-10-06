@@ -1,0 +1,13 @@
+<svg width="640" height="640" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" version="1.1">
+ <defs>
+  <path id="i7B9mZQshH" d="m20,20l300,0l0,47.66l-300,0l0,-47.66z"/>
+  <path id="n17V3hnGgZ" d="m320,20l-300,600l300,0l0,-600z"/>
+  <path id="d1LJBpFh1Z" d="m320,572.34l300,0l0,47.66l-300,0l0,-47.66z"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <use id="svg_4" fill="#ff0000" xlink:href="#i7B9mZQshH"/>
+  <use id="svg_6" fill="#1c9ebf" xlink:href="#n17V3hnGgZ"/>
+  <use id="svg_8" fill="#ff0000" xlink:href="#d1LJBpFh1Z"/>
+ </g>
+</svg>

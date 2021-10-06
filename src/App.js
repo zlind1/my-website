@@ -21,8 +21,8 @@ function App() {
       <Route exact path='/projects/:id' component={Project} />
       <Route exact path='/contact' component={Contact} />
       <Route exact path='/thankyou' component={ThankYou} />
-      <Footer />
     </Container>
+    <Footer />
   </>;
 }
 

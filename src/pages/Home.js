@@ -6,8 +6,6 @@ function Home() {
   return (
     <>
       <AboutMe />
-      <hr />
-      <ContactForm />
     </>
   );
 }

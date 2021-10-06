@@ -1,13 +1,25 @@
 [
   {
+    "title": "Math Instructor",
+    "company": "Brightfox Education Inc",
+    "location": "San Ramon, CA",
+    "dates": "September 2021 - Present",
+    "description": [
+      "Tutoring high school students online and in person",
+      "Math, Physics, Computer Science"
+    ]
+  },
+  {
     "title": "Software Engineer Intern",
     "company": "Infinite Options LLC",
     "location": "San Jose, CA",
     "dates": "March 2020 - October 2020",
     "description": [
-      "Front-end development in ReactJS to match UI designs",
-      "Worked in a team to design and deploy a website",
-      "Mobile frontend design with Xamarin Forms"
+      "Utilized ReactJS and Bootstrap to match UI designs for 10+ pages",
+      "Interfaced with backend APIs to load information and execute functions",
+      "Created app to send notifications to 100+ users using AG Grid and Twilio",
+      "Developed admin dashboard using Highcharts to display important stats",
+      "Learned Xamarin Forms in less than a week to assist with mobile"
     ]
   },
   {
