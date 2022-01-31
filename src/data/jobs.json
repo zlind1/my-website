@@ -1,5 +1,18 @@
 [
   {
+    "title": "Software Engineer Intern",
+    "company": "Infinite Options LLC",
+    "location": "San Jose, CA",
+    "dates": "March 2020 - October 2020, November 2021 - Present",
+    "description": [
+      "Utilized ReactJS and Bootstrap to match UI designs for 10+ pages",
+      "Interfaced with backend APIs to load information and execute functions",
+      "Created app to send notifications to 100+ users using AG Grid and Twilio",
+      "Developed admin dashboard using Highcharts to display important stats",
+      "Learned Xamarin Forms in less than a week to assist with mobile"
+    ]
+  },
+  {
     "title": "Math Instructor",
     "company": "Brightfox Education Inc",
     "location": "San Ramon, CA",
@@ -7,19 +20,6 @@
     "description": [
       "Tutoring high school students online and in person",
       "Math, Physics, Computer Science"
-    ]
-  },
-  {
-    "title": "Software Engineer Intern",
-    "company": "Infinite Options LLC",
-    "location": "San Jose, CA",
-    "dates": "March 2020 - October 2020",
-    "description": [
-      "Utilized ReactJS and Bootstrap to match UI designs for 10+ pages",
-      "Interfaced with backend APIs to load information and execute functions",
-      "Created app to send notifications to 100+ users using AG Grid and Twilio",
-      "Developed admin dashboard using Highcharts to display important stats",
-      "Learned Xamarin Forms in less than a week to assist with mobile"
     ]
   },
   {
