@@ -1,9 +1,20 @@
 [
   {
+    "title": "Software Engineer I",
+    "company": "Pocket Gems",
+    "location": "San Francisco, CA",
+    "dates": "March 2022 - August 2022",
+    "description": [
+      "Game development for the mobile app \"Adventure Chef\" in Unity / C# and JavaScript",
+      "Implemented new features and fixed critical bugs",
+      "Worked closely with artists and designers to create and iterate specs"
+    ]
+  },
+  {
     "title": "Software Engineer Intern",
     "company": "Infinite Options LLC",
     "location": "San Jose, CA",
-    "dates": "March 2020 - October 2020, November 2021 - Present",
+    "dates": "March 2020 - October 2020, November 2021 - March 2022",
     "description": [
       "Utilized ReactJS and Bootstrap to match UI designs for 10+ pages",
       "Interfaced with backend APIs to load information and execute functions",
@@ -16,7 +27,7 @@
     "title": "Math Instructor",
     "company": "Brightfox Education Inc",
     "location": "San Ramon, CA",
-    "dates": "September 2021 - Present",
+    "dates": "September 2021 - March 2022",
     "description": [
       "Tutoring high school students online and in person",
       "Math, Physics, Computer Science"
