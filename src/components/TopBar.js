@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
-import logo from '../data/ZL.svg';
+import logo from '../data/ZL.png';
 
 function TopBar() {
   return (
@@ -14,9 +14,6 @@ function TopBar() {
       <Navbar.Toggle aria-controls='basic-navbar-nav'/>
       <Navbar.Collapse id='basic-navbar-nav' className='ms-auto'>
         <Nav className='ms-auto'>
-          <Nav.Link href='/'>
-            Home
-          </Nav.Link>
           <Nav.Link href='/resume'>
             Resume
           </Nav.Link>

@@ -24,7 +24,7 @@ function ContactForm() {
     }).then(() => history.push('/thankyou')).catch(error => alert(error))
   }
   return <Container className='text-center mx-auto my-3'>
-    <h1 className='my-3'>Feel free to send me a message and we can chat.</h1>
+    <h1 className='my-5'>Or, you can fill out this form to send me a message here.</h1>
     <Form data-netlify='true' name='contact' onSubmit={submitForm} method='post'>
       <input type='hidden' name='form-name' value='contact' />
       <Form.Group className='text-left'>

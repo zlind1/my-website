@@ -9,7 +9,7 @@ function ThankYou() {
       Thanks for reaching out! I'll be in contact with the email address
       you provided within the next few days.
     </h1>
-    <Button onClick={() => history.push('/')}>
+    <Button onClick={() => history.push('/')} variant='secondary' >
       Return to homepage
     </Button>
   </Container>;
